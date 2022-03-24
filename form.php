@@ -27,7 +27,7 @@
       <input type="tel" id="phone" name="user_phone">
     </div>
     <div>
-      <label for="sujetselect" id="sujetselect"></label>
+      <label for="select"></label>
       <select id="select" name="select">
         <option value="information" selected>Information</option>
         <option value="recruitment">Recrutement</option>
