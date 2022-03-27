@@ -9,12 +9,14 @@
   <a href="thanks.php"></a>
 </head>
 <body>
+  
           <form action="" method="POST" novalidate>
             <ul>
                 <?php foreach ($errors as $error) : ?>
                     <li><?= $error ?></li>
                 <?php endforeach; ?>
             </ul>
+            
             <label for="firstname">Prénom</label>
             <input type="text" id="firstname" name="firstname" placeholder="John Doe" required value="<?= $contact['firstname'] ?? '' ?>">
 
@@ -37,22 +39,23 @@
             <div>max 3000 caractères</div>
             <button>Envoyer</button>
         </form>
+  
   <form action="thanks.php" method="post">
     <div>
-      <label for="nom">Nom :</label>
-      <input type="text" id="nom" name="user_name">
+      <label for="lastname">Nom :</label>
+      <input type="text" id="lastname" name="lastname">
     </div>
     <div>
-      <label for="prenom">Prénom :</label>
-      <input type="text" id="prenom" name="user_first">
+      <label for="firstname">Prénom :</label>
+      <input type="text" id="firstname" name="firstname">
     </div>
     <div>
-      <label for="courriel">Courriel :</label>
-      <input type="email" id="courriel" name="user_email">
+      <label for="email">Email :</label>
+      <input type="email" id="email" name="email">
     </div>
     <div>
       <label for="phone">Télephone :</label>
-      <input type="tel" id="phone" name="user_phone">
+      <input type="tel" id="phone" name="phone">
     </div>
     <div>
       <label for="select"></label>
@@ -64,7 +67,7 @@
     </div>
     <div>
       <label for="message">Message :</label>
-      <textarea id="message" name="user_message"></textarea>
+      <textarea id="message" name="message"></textarea>
     </div>
     <div class="button">
       <button type="submit">Envoyer votre message</button>
