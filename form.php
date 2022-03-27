@@ -57,12 +57,13 @@
       <label for="phone">Télephone :</label>
       <input type="tel" id="phone" name="phone">
     </div>
+    
     <div>
       <label for="select"></label>
       <select id="select" name="select">
-        <option value="information" selected>Information</option>
-        <option value="recruitment">Recrutement</option>
-        <option value="other">Autres</option>
+        <option value="france" selected>France</option>
+        <option value="italy">Italie</option>
+        <option value="ukraine">Ukraine</option>
       </select>
     </div>
     <div>
