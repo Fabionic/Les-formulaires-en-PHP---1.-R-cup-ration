@@ -26,6 +26,7 @@ Un de nos conseiller vous contactera soit à l’adresse <?php echo $_POST['emai
 // }
 
 $errors = [];
+    
 $countries = [
     'france' => 'France',
     'italy' => 'Italie',
