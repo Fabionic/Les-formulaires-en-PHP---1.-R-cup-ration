@@ -10,7 +10,7 @@
 </head>
 <body>
   
-          <form action="" method="POST" novalidate>
+          <form action="thanks.php" method="POST" novalidate>
             <ul>
                 <?php foreach ($errors as $error) : ?>
                     <li><?= $error ?></li>
